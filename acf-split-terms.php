@@ -21,8 +21,8 @@
 			global $wpdb;
 			//echo $wpdb; die;
 			$table = $wpdb->get_blog_prefix().'options';
-			$old_name = $taxonomy.'_'.$old_term_id;
-			$new_name = $taxonomy.'_'.$new_term_id;
+			$old_name = $taxonomy.'_'.$old_term_id.'_';
+			$new_name = $taxonomy.'_'.$new_term_id.'_';
 			$query = 'UPDATE '.$table.'
 								SET option_name = REPLACE(option_name, "'.$old_name.'", "'.$new_name.'")
 								WHERE option_name LIKE "%'.str_replace('_', '\_', $old_name).'%"';
