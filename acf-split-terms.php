@@ -7,8 +7,6 @@
 		Author: John A. Huebner II
 		Author URI: https://github.com/Hube2
 		Version: 0.0.1
-		
-		This plugin must be loctated in the mu-plugin folder so that it is available during WP update
 	*/
 	
 	new acf_split_terms();
