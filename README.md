@@ -2,6 +2,12 @@
 
 Rename ACF fields when terms are split by WP
 
+Please note that I have spoken with the developer of ACF and looked into the ACF code.
+There is something in ACF that is supposed to deal with split terms.
+It seems that there are instances where for some reason it does not work and I don't know why.
+It will not hurt anything to have this plugin installed when transitioning from WP 4.0 thru 4.3 or to keep it in
+place until you're sure you've gone through all the term splitting, just in case.
+
 This plugin needs to be active prior to updating to WP v4.2
 
 History of splitting terms in WP
